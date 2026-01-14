@@ -1,0 +1,17 @@
+# 强化学习环境
+gym==0.26.2
+gymnasium==0.29.1
+gym-super-mario-bros==7.3.0
+nes-py==8.2.1
+
+# 数值计算
+numpy==1.23.5
+opencv-python==4.8.0.76
+
+# 深度学习
+torch==2.1.1
+torchvision==0.16.1
+
+# 可选工具（训练可视化等）
+tensorboard==2.16.0
+matplotlib==3.8.0
