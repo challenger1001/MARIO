@@ -24,7 +24,7 @@ MARIO/
 ├── config.py       # 配置文件
 ├── scripts/        # 运行脚本（训练 / 评估）
 ├── checkpoints/    # 模型保存
-├── tests/          # 单元测试
+├── testcases/      # 测试样例
 ├── train.py        # 训练模型
 └── play.py         # 运行效果展示
 
