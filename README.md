@@ -23,6 +23,7 @@ MARIO/
 ├── src/            # 核心代码（环境、模型、算法、训练）
 ├── config.py       # 配置文件
 ├── scripts/        # 运行脚本（训练 / 评估）
+├── checkpoints/    # 模型保存
 ├── tests/          # 单元测试
 ├── train.py        # 训练模型
 └── play.py         # 运行效果展示
