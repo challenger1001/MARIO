@@ -53,7 +53,7 @@ class CNNConfig:
 
 def build_cnn(cfg: CNNConfig) -> nn.Module:
     device = cfg.device or ("cuda" if torch.cuda.is_available() else "cpu")
-    model = LevelCNN(num_classes=cfg.num_classes).to(device)
+    model = CNNPreprocess(num_classes=cfg.num_classes).to(device)
     model.eval()
 
     if cfg.weight_path:
